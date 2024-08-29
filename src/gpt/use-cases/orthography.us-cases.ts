@@ -15,7 +15,7 @@ export const ortographyCheckUseCases = async (openai: OpenAI, options: Options) 
                 example input prompt: "i don't have any opcionn about that quesion."
                 example output:
                     {
-                        "total_corrections": 2, //number
+                        "total_corrections": 2, //number of corrections
                         "corrected_text": "i don't have any |option| about that |question|." //string with the corrections applied and the corrections surrounded by | |
                     }
                 `
