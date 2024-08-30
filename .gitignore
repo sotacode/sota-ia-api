@@ -2,6 +2,10 @@
 /dist
 /node_modules
 
+# audios
+/generated/*
+!/generated/.gitkeep
+
 # Logs
 logs
 *.log
